@@ -1,0 +1,15 @@
+.delete-icon{
+    width: 55px;
+    height: 55px;
+    background: rgba(235, 87, 87, 0.3);
+    color: #EB5757;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    border: none;
+}
+.delete-icon:hover{
+    background: rgba(235, 87, 87, 0.5);
+
+}
