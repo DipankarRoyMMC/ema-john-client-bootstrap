@@ -32,6 +32,7 @@ const Signup = () => {
             .catch(err => console.error(err))
 
         console.log(email, password, confirmPassword);
+        
     }
 
     return (
