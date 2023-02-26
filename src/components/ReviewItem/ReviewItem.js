@@ -4,6 +4,7 @@ import React from 'react';
 import './ReveiwItem.css';
 
 const ReviewItem = ({ product, handleRemoveItem }) => {
+    console.log(product)
     const { _id, img, name, price, quantity } = product;
     return (
         <div className='border rounded p-2 d-flex mb-3 align-items-center'>
